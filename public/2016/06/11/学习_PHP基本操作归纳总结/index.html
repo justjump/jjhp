@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>PHP基本操作归纳总结 - 是谁自己不为谁</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="创建数组参考W3教程
+重点
+定义:$cars=array(&amp;quot;Volvo&amp;quot;,&amp;quot;BMW&amp;quot;,&amp;quot;SAAB&amp;quot;);
+数组长度:123$cars=array(&amp;quot;Volvo&amp;quot;,&amp;quot;BMW&amp;quot;,&amp;quot;SAAB&amp;quot;);echo count($cars);?&amp;gt;
+
+遍历数组123456789&amp;lt;?php">
+<meta property="og:type" content="article">
+<meta property="og:title" content="PHP基本操作归纳总结">
+<meta property="og:url" content="http://yoursite.com/2016/06/11/学习_PHP基本操作归纳总结/index.html">
+<meta property="og:site_name" content="是谁自己不为谁">
+<meta property="og:description" content="创建数组参考W3教程
+重点
+定义:$cars=array(&amp;quot;Volvo&amp;quot;,&amp;quot;BMW&amp;quot;,&amp;quot;SAAB&amp;quot;);
+数组长度:123$cars=array(&amp;quot;Volvo&amp;quot;,&amp;quot;BMW&amp;quot;,&amp;quot;SAAB&amp;quot;);echo count($cars);?&amp;gt;
+
+遍历数组123456789&amp;lt;?php">
+<meta property="og:updated_time" content="2016-06-11T05:51:39.991Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="PHP基本操作归纳总结">
+<meta name="twitter:description" content="创建数组参考W3教程
+重点
+定义:$cars=array(&amp;quot;Volvo&amp;quot;,&amp;quot;BMW&amp;quot;,&amp;quot;SAAB&amp;quot;);
+数组长度:123$cars=array(&amp;quot;Volvo&amp;quot;,&amp;quot;BMW&amp;quot;,&amp;quot;SAAB&amp;quot;);echo count($cars);?&amp;gt;
+
+遍历数组123456789&amp;lt;?php">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link href="/webfonts/ptserif/main.css" rel='stylesheet' type='text/css'>
+  <link href="/webfonts/source-code-pro/main.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <header id="header">
+  <div id="header-outer" class="outer">
+    <div id="header-inner" class="inner">
+      <a id="main-nav-toggle" class="nav-icon" href="javascript:;"></a>
+      <a id="logo" class="logo" href="/"></a>
+      <nav id="main-nav">
+        
+          <a class="main-nav-link" href="/categories">所有分类</a>
+        
+          <a class="main-nav-link" href="/categories/ganxiang">随想</a>
+        
+          <a class="main-nav-link" href="/categories/tucao">吐槽</a>
+        
+          <a class="main-nav-link" href="/categories/plan">计划</a>
+        
+          <a class="main-nav-link" href="/categories/jingyan">经验</a>
+        
+          <a class="main-nav-link" href="/categories/code">代码</a>
+        
+          <a class="main-nav-link" href="/aboutme">我介个人</a>
+        
+          <a class="main-nav-link" href="/archives">归档</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        <div id="search-form-wrap">
+          <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+    <section id="main" class="outer"><article id="post-学习_PHP基本操作归纳总结" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      PHP基本操作归纳总结
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      <a href="/2016/06/11/学习_PHP基本操作归纳总结/" class="article-date">
+  <time datetime="2016-06-11T05:47:03.000Z" itemprop="datePublished">2016-06-11</time>
+</a>
+      
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/jingyan/">经验</a>
+  </div>
+
+      
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="创建数组"><a href="#创建数组" class="headerlink" title="创建数组"></a>创建数组</h3><p><a href="http://www.w3school.com.cn/php/php_arrays.asp" target="_blank" rel="external">参考W3教程</a></p>
+<h4 id="重点"><a href="#重点" class="headerlink" title="重点"></a>重点</h4><ol>
+<li>定义:<code>$cars=array(&quot;Volvo&quot;,&quot;BMW&quot;,&quot;SAAB&quot;);</code></li>
+<li><p>数组长度:<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$cars=array(&quot;Volvo&quot;,&quot;BMW&quot;,&quot;SAAB&quot;);</span><br><span class="line">echo count($cars);</span><br><span class="line">?&gt;</span><br></pre></td></tr></table></figure></p>
+</li>
+<li><p>遍历数组<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&lt;?php</span><br><span class="line">$cars=array(&quot;Volvo&quot;,&quot;BMW&quot;,&quot;SAAB&quot;);</span><br><span class="line">$arrlength=count($cars);</span><br><span class="line"></span><br><span class="line">for($x=0;$x&lt;$arrlength;$x++) &#123;</span><br><span class="line">  echo $cars[$x];</span><br><span class="line">  echo &quot;&lt;br&gt;&quot;;</span><br><span class="line">&#125;</span><br><span class="line">?&gt;</span><br></pre></td></tr></table></figure></p>
+</li>
+</ol>
+
+      
+    </div>
+    
+    
+      <footer class="article-footer">
+        
+      </footer>
+    
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2016/06/10/日记_端午节后/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">2016年6月10日 09:24:23 日记&nbsp;<span>&gt;</span></div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+    <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2016 noxin&nbsp;
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>, theme by <a href="http://github.com/ppoffice">PPOffice</a>
+    </div>
+  </div>
+</footer>
+    
+
+<script src="/js/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+  </div>
+</body>
+</html>
