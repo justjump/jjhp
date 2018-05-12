@@ -12,12 +12,45 @@
 	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>又一个WordPress站点</description>
-	<lastBuildDate>Sat, 12 May 2018 02:02:17 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 12 May 2018 03:44:27 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=4.9.5</generator>
 	<item>
+		<title>矮油不行啦,几年来从未如此辛苦</title>
+		<link>/2018/05/12/cry/</link>
+		<comments>/2018/05/12/cry/#respond</comments>
+		<pubDate>Sat, 12 May 2018 03:42:18 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[未分类]]></category>
+
+		<guid isPermaLink="false">/?p=5</guid>
+		<description><![CDATA[妈的  公司新系统上线 陪着两个php在]]></description>
+				<content:encoded><![CDATA[<p>妈的  公司新系统上线</p>
+<p>陪着两个php在这耗时间</p>
+<p>从昨天18点到现在,没睡过</p>
+<p>困死了</p>
+<p>期间重温了一下git,这次应该弄清楚好多东西了</p>
+<p>等有空再整理下</p>
+<p>其实常用的命令也就那几条</p>
+<p>&nbsp;</p>
+<p>然后我这个github.io的page,从jelly到hexo到hugo,终于又转到wordpress了.</p>
+<p>还是wp用着比较顺手.</p>
+<p>主要就是用个静态化插件生成静态页再push到git,很简单.</p>
+<p>如此说来,以后公司主页也可以放上来.</p>
+<p>貌似不错哦~</p>
+<p>&nbsp;</p>
+<p>不行了.我要回家了.</p>
+<p>下午不过来了</p>
+<p>生物钟又乱死了</p>
+<p>杯了个具的!</p>
+<p>shit!!!!</p>
+]]></content:encoded>
+			<wfw:commentRss>/2018/05/12/cry/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
 		<title>世界，您好！</title>
 		<link>/2018/05/12/hello-world/</link>
 		<comments>/2018/05/12/hello-world/#comments</comments>
