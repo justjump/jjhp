@@ -26,7 +26,7 @@
 				<category><![CDATA[未分类]]></category>
 
 		<guid isPermaLink="false">/?p=1</guid>
-		<description><![CDATA[欢迎使用WordPress。这是您的第一篇文章。编辑或删除它，然后开始写作吧！]]></description>
+		<description><![CDATA[欢迎使用WordPress。这是您的第一]]></description>
 				<content:encoded><![CDATA[<p>欢迎使用WordPress。这是您的第一篇文章。编辑或删除它，然后开始写作吧！</p>
 ]]></content:encoded>
 			<wfw:commentRss>/2018/05/12/hello-world/feed/</wfw:commentRss>
